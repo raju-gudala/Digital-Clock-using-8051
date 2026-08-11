@@ -111,8 +111,8 @@ Build artifacts (`.hex`, `.obj`, `.lst`) are excluded from version control unles
 
 ## Roadmap
 
-- [ ] Date/calendar display (`DD-MM-YYYY`) using existing DS1307 registers
-- [ ] 12/24-hour display toggle
+- [ ] Calendar display (`DD-MM-YYYY`) using existing DS1307 registers
+- [ ] 24-hour display toggle
 - [ ] Push-button time/date configuration interface
 - [ ] Alarm subsystem with buzzer output
 - [ ] EEPROM-backed configuration persistence (display mode, alarm settings)
