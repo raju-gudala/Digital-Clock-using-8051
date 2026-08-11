@@ -1,1 +1,54 @@
+<svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer PCB/module body -->
+  <rect x="0" y="0" width="420" height="220" rx="14" fill="#1b2a22"/>
+  <rect x="0" y="0" width="420" height="220" rx="14" fill="none" stroke="#0d1712" stroke-width="4"/>
 
+  <!-- Mounting holes -->
+  <circle cx="22" cy="22" r="7" fill="#0d1712"/>
+  <circle cx="398" cy="22" r="7" fill="#0d1712"/>
+  <circle cx="22" cy="198" r="7" fill="#0d1712"/>
+  <circle cx="398" cy="198" r="7" fill="#0d1712"/>
+
+  <!-- LCD screen panel -->
+  <rect x="45" y="35" width="330" height="150" rx="4" fill="#8fbf6b"/>
+  <rect x="45" y="35" width="330" height="150" rx="4" fill="none" stroke="#4a6b38" stroke-width="3"/>
+
+  <!-- Subtle screen glare -->
+  <rect x="50" y="40" width="320" height="60" fill="#a3cf82" opacity="0.35" rx="3"/>
+
+  <!-- Character grid lines effect (subtle) -->
+  <g opacity="0.15" stroke="#2f4a24" stroke-width="1">
+    <line x1="45" y1="110" x2="375" y2="110"/>
+  </g>
+
+  <!-- Row 1 text: DIGITAL CLOCK -->
+  <text x="210" y="90" font-family="'Courier New', monospace" font-size="30" font-weight="bold"
+        fill="#1e2f16" text-anchor="middle" letter-spacing="3">DIGITAL CLOCK</text>
+
+  <!-- Row 2 text: time -->
+  <text x="210" y="150" font-family="'Courier New', monospace" font-size="34" font-weight="bold"
+        fill="#1e2f16" text-anchor="middle" letter-spacing="6">15:42:08</text>
+
+  <!-- Pin header at bottom -->
+  <g fill="#c9a227">
+    <rect x="60" y="192" width="6" height="16"/>
+    <rect x="78" y="192" width="6" height="16"/>
+    <rect x="96" y="192" width="6" height="16"/>
+    <rect x="114" y="192" width="6" height="16"/>
+    <rect x="132" y="192" width="6" height="16"/>
+    <rect x="150" y="192" width="6" height="16"/>
+    <rect x="168" y="192" width="6" height="16"/>
+    <rect x="186" y="192" width="6" height="16"/>
+    <rect x="204" y="192" width="6" height="16"/>
+    <rect x="222" y="192" width="6" height="16"/>
+    <rect x="240" y="192" width="6" height="16"/>
+    <rect x="258" y="192" width="6" height="16"/>
+    <rect x="276" y="192" width="6" height="16"/>
+    <rect x="294" y="192" width="6" height="16"/>
+    <rect x="312" y="192" width="6" height="16"/>
+    <rect x="330" y="192" width="6" height="16"/>
+  </g>
+
+  <!-- Label -->
+  <text x="210" y="16" font-family="Arial, sans-serif" font-size="11" fill="#7a8a80" text-anchor="middle" letter-spacing="1">16x2 LCD MODULE — HD44780</text>
+</svg>
