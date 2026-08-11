@@ -1,0 +1,30 @@
+# Keil generated files
+Objects/
+Listings/
+*.obj
+*.lst
+*.m51
+*.hex
+*.bin
+*.map
+*.axf
+*.lnp
+
+# Keil uVision temporary files
+*.bak
+*.iex
+*.uvguix.*
+*.uvopt
+*.uvoptx
+
+# Debug/build output
+Debug/
+Release/
+
+# Proteus generated files
+*.pwi
+*.pdsbak
+
+# OS files
+Thumbs.db
+.DS_Store
